@@ -42,6 +42,9 @@ uniform mat4 model;														\n\
 																		\n\
 void main() {															\n\
 	gl_Position = model * vec4(pos, 1.0);								\n\
+																		\n\
+	// interpolate and make all vertices be in 0.0~1.0,					\n\
+	// respectively to colors											\n\
 	vCol = vec4(clamp(pos, 0.0f, 1.0f), 1.0f);							\n\
 }																		\n\
 ";
