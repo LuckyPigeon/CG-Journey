@@ -5,7 +5,7 @@
 //
 // functions:
 //
-// Initialise: Initialize and create a window
+// Initialise:		Initialize and create a window
 // getBufferWidth:	Get buffer width
 // getBufferHeight: Get buffer height
 // getShouldClose:	Get window close event

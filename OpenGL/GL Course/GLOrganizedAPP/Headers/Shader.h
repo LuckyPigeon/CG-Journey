@@ -14,8 +14,8 @@
 //
 // Variables:
 //
-// shaderID:				shader id
-// u_model:					model matrix
+// shaderID:				Shader id
+// u_model:					Model matrix
 // u_projection:			projection matrix
 //**************************************************************
 
