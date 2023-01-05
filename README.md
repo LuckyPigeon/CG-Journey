@@ -7,5 +7,4 @@ There are six types of sample code:
 * OpenGL: Implement graphic algorithm using OpenGL.
 * Vulkan: Implement graphic algorithm using Vulkan.
 * DirectX12: Implement graphic algorithm using DirectX12.
-* ThreeJS: Graphic examples in ThreeJS.
-* WebGL: Graphic examples in pure WebGL.
+* WebGL: Graphic examples in pure WebGL and ThreeJS.
