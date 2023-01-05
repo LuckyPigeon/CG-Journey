@@ -26,7 +26,7 @@ static const char* vShader = "Shaders/shader.vert";
 // Fragment Shader
 static const char* fShader = "Shaders/shader.frag";
 
-// Create objects based on define vertices and indices
+// CreateObjects represent create objects based on define vertices and indices
 void CreateObjects()
 {
 	unsigned int indices[] = {
@@ -52,7 +52,7 @@ void CreateObjects()
 	meshList.push_back(obj2);
 }
 
-// Create shaders based on global vars vShader and fShader
+// CreateShaders represent create shaders based on global vars vShader and fShader
 void CreateShaders()
 {
 	Shader *shader1 = new Shader();
