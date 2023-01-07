@@ -13,7 +13,7 @@ code, and rendered our scene in the HTML Canvas.
 * There are two camera projections, "Orthogonal Projection" and "Perspective Projection".
     * "Orthogonal Projection" **lets every object in the scene always stays the same size**, which means objects **don't** zoom in/out after it move near/far from the camera.
     * "Perspective Projection" **is the projection method that we see every day**, which means objects zoom in/out after it move near/far from the camera.
-* `THREE.WebGLRenderer` allows GPU calculates the whole scene
+* `THREE.WebGLRenderer` allows GPU calculates the whole scene.
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
