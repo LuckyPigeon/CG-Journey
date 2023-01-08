@@ -6,18 +6,17 @@
  * function calculate distance between two specific points.
  */
 
+/**
+ * Base
+ */
 import './style.css'
 import * as THREE from 'three'
 import { Mesh, MeshBasicMaterial } from 'three'
 
-/**
- * Canvas
- */
+// Canvas
 const canvas = document.querySelector('canvas.webgl')
 
-/**
- * Scene
- */
+// Scene
 const scene = new THREE.Scene()
 
 /**

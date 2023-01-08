@@ -5,14 +5,13 @@
  */
 
 /**
- * Canvas
+ * Base
  */
+// Canvas
 const canvas = document.querySelector('canvas.webgl');
 console.log(THREE);
 
-/**
- * Scene
- */
+// Scene
 const scene = new THREE.Scene();
 
 /**
