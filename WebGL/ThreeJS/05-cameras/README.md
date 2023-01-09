@@ -22,4 +22,4 @@ object be, the bigger it is.
 
 ## Setup
 
-Paste the code in `script.js` to your project and enjoy the example.
+* Paste the code in `script.js` to your project and enjoy the example :).
