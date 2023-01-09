@@ -28,6 +28,6 @@ will decrease the amount of texels if a texel handles less than a pixel and impr
 
 ## Setup
 
-* Paste the code in `script.js` to your project
+* Paste the code in `script.js` to your project.
 * Copy the `texture` folder and paste it into your `static` folder.
 * Enjoy the example :).
