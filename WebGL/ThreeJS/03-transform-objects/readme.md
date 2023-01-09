@@ -17,4 +17,4 @@ also use position.set(x, y, z) to modify coordinates in one time. (There's also 
 
 ## Setup
 
-Paste the code in `script.js` to your project and enjoy the example.
+* Paste the code in `script.js` to your project and enjoy the example :).
