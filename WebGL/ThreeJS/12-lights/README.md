@@ -25,6 +25,20 @@ there are two morden approaches.
     * spotLight: Spot Light. Near light source. e.g. Light bulb or spot light.
 * Light helpers just like axes helper, there are especially useful when developing a light.
 
+## 重點整理
+
+* 光線在圖學中是非常重要概念，它影響著陰影、深度與顏色。
+* 光線非常吃效能，因此通常一個場景最多只有三個光線。如果想要增加更多光線，有兩種主流方法。
+    * 預先錄製光線，這在固定場景、固定劇情的遊戲非常常見，因為光線不會變化，因此預錄起來就好。
+    * 環境映射圖，使用環境映射圖讓物體捕捉光線細節與反射。
+* `ThreeJS` 有六種光線，其中包含
+    * ambientLight：俗稱環境光，顧名思義是存在環境中的光，微小且範圍大。
+    * directionalLight：來自遠方的光，通常模擬太陽光。
+    * pointLight：來自點點的光，可以模擬星光、螢火蟲、火炬等等。
+    * hemisphereLight：在場景正上方的光，通常模擬天空自帶的光芒。
+    * rectAreaLight：平面光，通常用來模擬光穿越某種平面照射到其他物體上，如，透明窗戶。
+    * spotLight：聚光燈。
+
 ## Setup
 
 * Paste the code in `script.js` to your project.

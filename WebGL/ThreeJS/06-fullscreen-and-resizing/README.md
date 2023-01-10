@@ -6,7 +6,11 @@ This example shows how to handle the resizing of screen.
 
 ## Learning Points
 
-If you forget what projection matrix it is, please checkout the link below.
+* If you forget what projection matrix it is, please checkout the link below.
+
+## 重點整理
+
+* 如果忘記投影矩陣意義或運作原理，請務必複習下方連結。
 
 ## Extensional Resources
 
