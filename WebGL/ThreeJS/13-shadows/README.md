@@ -15,6 +15,14 @@ to project own shadow to others or allows others project shadows to it.
 * `shadow.camera` just like our perspective camera, but the properties of it affect the 
 performance, so it must be adjust in every light source.
 
+## 重點整理
+
+* `ThreeJS` 中，陰影無法透過簡易開關設定，而是由 `castShadow` 與 `receiveShadow` 構成。其中，
+`castShadow` 告訴引擎該物體會投射陰影；而 `receiveShadow` 告訴引擎該物體可以接收陰影。
+* `shadow.mapSize` 調整陰影的解析度，但這會影響效能，務必慎重使用。
+* `shadow.camera` 就像使用者視角，但 `shadow.camera` 會影響效能，所以必須對所有 `shadow.camera`
+進行微調，去除用不到部分，
+
 ## Setup
 
 * Paste the code in `script.js` to your project.
