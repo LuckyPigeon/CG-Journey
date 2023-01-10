@@ -29,5 +29,12 @@ will decrease the amount of texels if a texel handles less than a pixel and impr
 ## Setup
 
 * Paste the code in `script.js` to your project.
-* Copy the `texture` folder and paste it into your `static` folder.
+* Copy the `textures` folder and paste it into your `static` folder.
+* Run following commands in your command line interface.
+
+```bash
+npm i
+npm run dev
+```
+
 * Enjoy the example :).

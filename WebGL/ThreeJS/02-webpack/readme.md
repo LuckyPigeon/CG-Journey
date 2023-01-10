@@ -16,10 +16,11 @@ You may escape it and look into the next lecture.
 * You can easily find webpack resource by google `webpack` + the keyword that confuses you.
 
 ## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
 
-``` bash
+* Download [Node.js](https://nodejs.org/en/download/).
+* Run following commands in your command line interface.
+
+```bash
 # Install dependencies (only the first time)
 npm install
 
@@ -28,3 +29,6 @@ npm run dev
 
 # Build for production in the dist/ directory
 npm run build
+```
+
+* Enjoy the example :).

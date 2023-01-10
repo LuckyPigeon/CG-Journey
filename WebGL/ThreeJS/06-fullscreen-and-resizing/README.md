@@ -14,4 +14,12 @@ If you forget what projection matrix it is, please checkout the link below.
 
 ## Setup
 
-* Paste the code in `script.js` to your project and enjoy the example :).
+* Paste the code in `script.js` to your project.
+* Run following commands in your command line interface.
+
+```bash
+npm i
+npm run dev
+```
+
+* Enjoy the example :).

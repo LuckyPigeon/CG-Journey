@@ -44,5 +44,12 @@ is light from a point, simulate near light source.
 ## Setup
 
 * Paste the code in `script.js` to your project.
-* Copy the `texture` folder and paste it into your `static` folder.
+* Copy the `textures` folder and paste it into your `static` folder.
+* Run following commands in your command line interface.
+
+```bash
+npm i
+npm run dev
+```
+
 * Enjoy the example :).
