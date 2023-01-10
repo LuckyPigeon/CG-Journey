@@ -16,4 +16,12 @@ This example shows how to create a geometry with pure vertex points.
 
 ## Setup
 
-* Paste the code in `script.js` to your project and enjoy the example :).
+* Paste the code in `script.js` to your project.
+* Run following commands in your command line interface.
+
+```bash
+npm i
+npm run dev
+```
+
+* Enjoy the example :).

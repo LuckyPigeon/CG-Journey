@@ -16,4 +16,11 @@ This example shows how to setup a debug ui, test your scene and objects, and mak
 
 * Paste the code in `script.js` to your project.
 * Run `npm install --save gsap lil-gui` to install the dependencies.
+* Run following commands in your command line interface.
+
+```bash
+npm i
+npm run dev
+```
+
 * Enjoy the example :).

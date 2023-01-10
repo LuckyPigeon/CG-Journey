@@ -31,5 +31,11 @@ and want to know more.
 * Paste the code in `script.js` to your project.
 * This package uses gsap as animation library, run `npm install --save gsap@3.5.1` execute the program smoothly, you can still install latest version
 to experience the newest functionailty.
-* Enjoy the example :)
+* Run following commands in your command line interface.
 
+```bash
+npm i
+npm run dev
+```
+
+* Enjoy the example :)
