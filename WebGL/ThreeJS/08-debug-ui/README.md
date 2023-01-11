@@ -10,7 +10,7 @@ This example shows how to setup a debug ui, test your scene and objects, and mak
     * `lil.GUI` initialize the debug program.
     * `gui.add` adds options to the debug UI, you can set option types and utilies such as `min`, `max`, `step` by yourself, or let the library decide for you.
     * You can use side utilies of the library to decorate and make your debug UI more interactive. Such as, `gui.addColor` to add color option, `gui.close` to
-    colapse the debug UI, `gui.hide` to make the dubg UI unvisible. To learn more about side utilies, visit official [documentation](https://lil-gui.georgealways.com/)
+    close the debug UI by default. To learn more about side utilies, visit official [documentation](https://lil-gui.georgealways.com/)
 
 ## 重點整理
 
