@@ -3,6 +3,7 @@
 ## Description
 
 This example shows how to use different method to achieve objects animation.
+
 The methods include gsap animation library, scene update function and scen update 
 function with camera movement to simulate animation.
 
