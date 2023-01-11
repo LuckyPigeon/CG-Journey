@@ -8,13 +8,15 @@ This example shows how to use differnt ThreeJS Materials and load textures with 
 
 * ThreeJS contains plenty of material options, include
     * MeshBasicMaterial: The most basic and simplest material, only color and react
-    to ambient light, no shadow, no depth and other fancy effect. Easy to setup and
-    test the materials or ideas.
+    to ambient light, no shadow, no depth and other fancy effect. **Easy to setup and
+    test the materials or ideas**.
+    * MeshDepthMaterial: A material with depth test, which mean **the face near
+    light is brighter and is dark if it far from light**.
     * MeshDepthMaterial: A material with depth test, which mean the face near
     light is brighter and is dark if it far from light.
     * MeshLambertMaterial: Use a special model called "Lambertian" to calcualte and
     simulate the reflectance.
-    * MeshPhongMaterial: Use a specialm model called "Blinn-Phong" to calculate and 
+    * MeshPhongMaterial: Use a special model called "Blinn-Phong" to calculate and 
     simulate the reflectance.
     * MeshToonMaterial: A material implementing toon shading.
     * MeshStandardMaterial: Use Physically Based Rendering (PBR) to render the materials.
@@ -64,6 +66,10 @@ is light from a point, simulate near light source.
 ## Extensional Resources
 
 * Materials - Official [documentation](https://threejs.org/docs/?q=sta#api/en/materials/MeshStandardMaterial)
+* Lambertian reflectance model [explanation](https://blog.csdn.net/u010922186/article/details/40680913)
+* Blinn-Phong reflectance model [explanation](https://ithelp.ithome.com.tw/articles/10240632)
+* Toon Shading [explanation](https://zh.wikipedia.org/zh-tw/%E5%8D%A1%E9%80%9A%E6%B8%B2%E6%9F%93)
+* PBR (Physically Based Rendering) [explanation](https://marmoset.co/posts/basic-theory-of-physically-based-rendering/)
 
 ## Setup
 
