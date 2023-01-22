@@ -7,7 +7,7 @@ This is shader exercises, please do the exercises in `shader.frag`, there's also
 ## Setup
 
 * Paste the code in `script.js` to your project.
-* Copy the `shaders` folder and paste it into your `static` folder.
+* Copy the `shaders` folder and paste it into your `src` folder.
 * Run following commands in your command line interface.
 
 ```bash
