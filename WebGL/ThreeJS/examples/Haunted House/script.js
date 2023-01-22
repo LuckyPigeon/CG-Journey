@@ -1,3 +1,10 @@
+/*
+    This is Haunted House example, a review from basic scene to materials. 
+    It will create a dark house with some graves, along with some little 
+    ghost running around. You can modify the light, geometries and materials, 
+    add some new ideas in it.
+*/
+
 import './style.css'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
